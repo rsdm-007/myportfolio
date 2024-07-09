@@ -17,7 +17,7 @@ const About = () => {
                 transition={{duration:0.5}}
             className='w-full lg:w-1/2 lg:p-8'>
                 <div className='flex items-center justify-center'>
-                    <img src={aboutimg} alt="about" className='rounded-2xl'/>
+                    <img src={aboutimg} alt="about" className='rounded-2xl w-96'/>
 
                 </div>
                
