@@ -22,9 +22,10 @@ const Contact = () => {
             transition={{duration:1.5}} className='my-4'>
                 {CONTACT.phoneNo}
             </motion.p>
-            <p className='my-4'>
+            <a href="mailto:sureshduraimurugan1@gmail.com" target="_blank"><p className='my-4'>
                 {CONTACT.email}
-            </p>
+            </p></a>
+            
             
         </div>
     </div>
